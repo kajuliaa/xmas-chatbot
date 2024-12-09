@@ -1,0 +1,23 @@
+import ./common.chatito
+
+%[findRecipe]('training': '100', 'testing': '100')
+
+    *[50%] ~[hi?] ~[please?] ~[tell?] ~[Christmas cookies recipe] ~[with] @[ingredient] ~[ingredient?] ~[thanks?]
+    *[50%] ~[hi?] ~[please?] ~[tell?] ~[Christmas cookies recipe] ~[thanks?]
+@[ingredient]
+    ~[cinnamon]
+    ~[egg]
+    ~[vanilla]
+    ~[chocolate]
+    ~[choco]
+~[tell]
+    find
+    i'm looking for
+    help me find
+    tell me
+~[Christmas cookies recipe]
+    xmas recipe
+    xmas cokies recipe
+    Christmas cookies recipe
+    Christmas recipe
+    cookies recipe

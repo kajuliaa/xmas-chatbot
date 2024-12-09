@@ -1,0 +1,20 @@
+import ./common.chatito
+
+%[requestMarkt]('training': '100', 'testing': '100')
+
+    *[100%] ~[hi?] ~[please?] ~[tell?] ~[the nearest?] ~[Christmas market] ~[thanks?]
+~[tell]
+    find
+    i'm looking for
+    help me find
+    tell me
+~[the nearest]
+    nearest
+    the nearest 
+    in the area
+    the closest
+~[Christmas market]
+    Christmas market
+    xmas market
+    market
+    winter market

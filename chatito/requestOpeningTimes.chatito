@@ -1,0 +1,21 @@
+import ./common.chatito
+
+%[requestOpeningTimes]('training': '100', 'testing': '100')
+
+    *[50%] ~[hi?] ~[please?] ~[tell?] ~[when] ~[Christmas market] ~[open] ~[thanks?]
+    *[50%] ~[hi?] ~[please?] ~[tell?] ~[what?] ~[are?] ~[opening hours] ~[of] ~[Christmas market] ~[thanks?]
+~[when]
+    when does
+    when is
+~[Christmas market]
+    Christmas market
+    xmas market
+    market
+    winter market
+~[are]
+    are
+    is
+~[opening hours]
+    opening hours
+    opening times
+    opening time

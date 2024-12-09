@@ -1,0 +1,9 @@
+import ./common.chatito
+
+%[declareName]('training': '100', 'testing': '100')
+
+    *[100%] ~[hi?] ~[my?] ~[name is?] ~[name] 
+~[name]
+    Yuliia
+    Lukas
+    Alexander
