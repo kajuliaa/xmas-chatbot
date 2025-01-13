@@ -12,8 +12,26 @@ class DialogueType(Enum):
             return DialogueType.Goodbye
         elif intent == "greet":
             return DialogueType.Greet
-        elif intent == "find_cookies":
+        elif intent == "find_recipe":
             return DialogueType.REQUEST_RECIPE
+        elif: intent == "learn_name":
+            return DialogueType.REQUEST_NAME
+        elif: intent == "declare_name":
+            return DialogueType.DECLARE_NAME
+        elif: intent == "request_task":
+            return == DialogueType.REQUEST_TASK
+        elif: intent == "find_recipe":
+            return == DialogueType.REQUEST_RECIPE
+        elif: intent == "tell_recipe":
+            return == DialogueType.DECLARE_RECIPE
+        elif: intent == "find_market":
+            return == DialogueType.REQUEST_MARKET
+        elif: intent == "give_info_market":
+            return == DialogueType.DECLARE_MARKET
+        elif: intent == "know_opening_times":
+            return == DialogueType.REQUEST_OPENING_TIMES
+        elif: intent == "give_info_opening_times":
+            return == DialogueType.DECLARE_OPENING_TIMES
         else:
             raise ValueError('{} is not a valid intent', intent)
 
